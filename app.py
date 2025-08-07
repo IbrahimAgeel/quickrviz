@@ -4,13 +4,6 @@ import streamlit as st
 import sys
 import pygwalker
 
-st.subheader("🧪 Debug Information")
-st.write(f"**Python Executable Path:** `{sys.executable}`")
-st.write(f"**Streamlit Version:** `{st.__version__}`")
-st.write(f"**Pygwalker Version:** `{pygwalker.__version__}`")
-st.divider()
-
-# It's a good practice to set the layout to wide for data apps
 st.set_page_config(layout="wide")
 
 st.title("QuickyViz")
