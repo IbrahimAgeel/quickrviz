@@ -6,7 +6,7 @@ import pygwalker
 
 st.set_page_config(layout="wide")
 
-st.title("QuickyViz")
+st.title("QuickrViz")
 
 # Allow CSV files as well, as they are very common
 uploaded_file = st.sidebar.file_uploader("Upload an Excel or CSV file", type=['xlsx', 'csv'])
