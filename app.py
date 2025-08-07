@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 
 st.title("QuickrViz")
 
-# Allow CSV files as well, as they are very common
+# CSV files as well, as they are very common
 uploaded_file = st.sidebar.file_uploader("Upload an Excel or CSV file", type=['xlsx', 'csv'])
 
 if uploaded_file is not None:
